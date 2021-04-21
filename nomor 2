@@ -1,0 +1,29 @@
+package uts;
+
+public class Person {
+    String nama ;
+    int age ;
+    
+}
+
+
+
+package uts;
+
+public class PersonBeraksi {
+    public static void main (String[]args){
+        Person orangku = new Person();
+        Person kuy = new Person();
+        
+        kuy.age = 52;
+        kuy.nama = "Mary Sharp";
+        
+        orangku.nama = "Joe Smith";
+        orangku.age = 24;
+        
+        System.out.println("Nama : " + orangku.nama);
+        System.out.println("Age : " + orangku.age);
+        System.out.println("Nama : " + kuy.nama);
+        System.out.println("Nama : " + kuy.age);
+    }
+}
