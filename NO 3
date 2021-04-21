@@ -1,0 +1,50 @@
+package Matematika;
+
+/**
+ *
+ * @author HP
+ */
+public class MatematikaCanggihBanget {
+        
+        void pertambahan (double a, double b, double c, double d){
+            System.out.println(a + " + " + b + " + " + c  + " + " + d  + " = " +(a+b+c+d));
+        }
+        void pengurangan (double a, double b, double c, double d){
+            System.out.println(a + " - " + b + " - " + c  + " - " + d  + " = " +(a-b-c-d));
+        }
+        
+        void perkalian (double a, double b, double c, double d){
+            System.out.println(a + " * " + b + " * " + c  + " * " + d  + " = " +(a*b*c*d));
+        }
+        void pembagian (double a, double b, double c, double d){
+            System.out.println(a + " / " + b + " / " + c  + " / " + d  + " = " +(a/b/c/d));
+        }
+        void modulus (double a, double b, double c, double d){
+            System.out.println(a + " % " + b + " % " + c  + " % " + d  + " = " +(a%b%c%d));
+        }
+}
+ 
+    
+package Matematika;
+
+/**
+ *
+ * @author HP
+ */
+public class MatematikaCanggihBangetBeraksi {
+ public static void main(String[] args) {
+        
+        System.out.println("Nama  : Mochamad Yusril Ikhsan");
+        System.out.println("Nim   : 11200930000098");
+        System.out.println("Kelas : 2D SISTEM INFORMASI");
+        System.out.println("==========Kalkulator Sederhana==========\n");
+        MatematikaCanggihBanget MTK = new MatematikaCanggihBanget();
+        MTK.pertambahan(1,2,3,4);
+        MTK.pengurangan(1,2,3,4);
+        MTK.perkalian(1,2,3,4);
+        MTK.pembagian(1,2,3,4);
+        MTK.modulus(1,2,3,4);
+        
+    }
+         
+}
